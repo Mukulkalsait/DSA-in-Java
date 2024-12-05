@@ -18,7 +18,7 @@ public class JB_1_javaBasic {
  * 2.... IDENTIFIERS
  * 3.... VARIABLE'
  *
- * LIV <--- Short
+ * I-LV-U <--- (U= Units)
  *
  * WARN: 1 Litrals
  * anything that has its value which is not going to change is Litral
@@ -37,6 +37,6 @@ public class JB_1_javaBasic {
  *
  *
  * FIX: LEARN 1
- * Lit-Var-Identifiers....
+ * Identifiers LItrals Var =Units
  * 
  */

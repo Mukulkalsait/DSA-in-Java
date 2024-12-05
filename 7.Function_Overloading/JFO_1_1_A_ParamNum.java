@@ -18,12 +18,36 @@ public class JFO_1_1_A_ParamNum {
   }
 
   public static int inputAdder() {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Intput a:");
+    int a = sc.nextInt();
+    System.out.println("Intput b:");
+    int b = sc.nextInt();
 
+    System.out.println("Do you want to add more? (y=1/n=2)");
+    int y1 = sc.nextInt();
+
+    if (y1 == 1) {
+      System.out.println("Intput c:");
+      int c = sc.nextInt();
+      System.out.println("Do you want to add more? (y=1/n=2)");
+      int y2 = sc.nextInt();
+      if (y2 == 1) {
+        System.out.println("Intput d: (max num = 4)");
+        int d = sc.nextInt();
+        int res = multiply(a, b, c, d);
+        return res;
+      } else {
+        int res = multiply(a, b, c);
+        return res;
+      }
+    } else {
+      int res = multiply(a, b);
+      return res;
+    }
   }
 
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
     System.out.println(inputAdder());
-
   }
 }
