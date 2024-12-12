@@ -7,19 +7,24 @@ public class JBD_1_primeNum {
     System.out.println("Please input a number to check PRIME:");
     int checkNum = sc.nextInt();
     Boolean prime = true;
-
-    for (int i = 2; i < Math.sqrt(checkNum); i++) {
-      if (checkNum % i == 0) {
-        prime = false;
-        System.out.println(checkNum + " is devisable by " + i + " Hence:");
-        break;
-      }
-    }
-    // System.out.println(prime);
-    if (prime == true) {
+    if (checkNum == 2) {
       System.out.println("The number " + checkNum + " is Prime number!!!");
+      return;
     } else {
-      System.out.println("The number " + checkNum + " is NOT a Prime number!!!");
+      for (int i = 2; i <= Math.sqrt(checkNum); i++) {
+        if (checkNum % i == 0) {
+          prime = false;
+          System.out.println(checkNum + " is devisable by " + i + " Hence:");
+          break;
+        }
+      }
+
+      // System.out.println(prime);
+      if (prime == true) {
+        System.out.println("The number " + checkNum + " is Prime number!!!");
+      } else {
+        System.out.println("The number " + checkNum + " is NOT a Prime number!!!");
+      }
     }
   }
 }
