@@ -19,6 +19,6 @@ public class JFM_2_funBasic {
 
     int multi = multiply(a, b);
     System.out.println(multi);
-
+    sc.close();
   }
 }

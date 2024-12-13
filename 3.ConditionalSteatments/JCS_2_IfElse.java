@@ -17,5 +17,6 @@ public class JCS_2_IfElse {
     } else {
       System.out.println(" b is greater !!!");
     }
+    sc.close();
   }
 }

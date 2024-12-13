@@ -1,5 +1,5 @@
 
-// TODO:
+// BLUE:
 // OPERANDS and OPERATOR
 // "a, b,and var is OPERANDS".
 // Symbols that tell compiler to perform certain operation. ( +,-,*,/ )
@@ -16,12 +16,12 @@
 public class JOP_1_Operators {
   public static void main(String[] args) {
 
-    // FIX:
+    // BLUE:
     // 1 Arithmetic operators:
     // TEST:
     // A. Unary operators
     // only one operand eg. a++ , b-- , ++c, --d;
-    // FIX:[here a += 10 and a-= 12; are considerd as assigment operators so chechk
+    // WARN:[here a += 10 and a-= 12; are considerd as assigment operators so chechk
     // there.]
     // TEST:
     // B. Binary operators:
@@ -38,7 +38,7 @@ public class JOP_1_Operators {
 
     // FIX:
     // 2 Relational Operator:
-    // TEST:
+    // DIV:
     // shows relation ---
     // 1. ==
     // 2. !=
@@ -63,7 +63,7 @@ public class JOP_1_Operators {
     System.out.println("A >= B is " + (A >= B));
     System.out.println("A <= B is " + (A <= B));
 
-    // FIX:
+    // TAG:
     // Assignment operators
     // 1. =
     // 2. +=

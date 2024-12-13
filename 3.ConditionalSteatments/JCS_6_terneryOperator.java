@@ -33,5 +33,6 @@ public class JCS_6_terneryOperator {
 
     System.out.println((val1 >= val2) ? "Congruats You are pass !!!" : "Your Score is low, Better Luck Next Time.");
     // here we added turnery opeartor insdide the println() function.
+    sc.close();
   }
 }

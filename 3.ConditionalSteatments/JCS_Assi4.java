@@ -21,5 +21,6 @@ public class JCS_Assi4 {
     } else {
       System.err.println("ERROR: Please make sure Initial value is smaller than Final Value. !!!");
     }
+    sc.close();
   }
 }

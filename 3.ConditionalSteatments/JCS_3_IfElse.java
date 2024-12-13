@@ -14,6 +14,6 @@ public class JCS_3_IfElse {
     } else {
       System.out.println("The value of a " + a + " is Odd Value.");
     }
+    sc.close();
   }
-
 }

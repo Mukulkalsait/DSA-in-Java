@@ -34,5 +34,6 @@ public class JFM_3_valSWAP {
     System.out.println("value of A and B respectively in MAIN function " + a + " " + b);
     System.out.println(
         "The resualt shows how jawa uses 'Pass by value' to copy the variables in other method/function/stack");
+    sc.close();
   }
 }

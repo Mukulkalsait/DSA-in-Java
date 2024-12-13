@@ -36,6 +36,7 @@ public class JFM_5_binomialCofiecient {
 
     int binoCofi = binomialCofient(n, r);
     System.out.println("the Binomial Cofient of " + n + " and " + r + " is " + binoCofi);
+    sc.close();
 
   }
 }

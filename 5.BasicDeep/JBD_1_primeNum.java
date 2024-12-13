@@ -9,6 +9,7 @@ public class JBD_1_primeNum {
     Boolean prime = true;
     if (checkNum == 2) {
       System.out.println("The number " + checkNum + " is Prime number!!!");
+      sc.close();
       return;
     } else {
       for (int i = 2; i <= Math.sqrt(checkNum); i++) {
@@ -26,6 +27,7 @@ public class JBD_1_primeNum {
         System.out.println("The number " + checkNum + " is NOT a Prime number!!!");
       }
     }
+    sc.close();
   }
 }
 

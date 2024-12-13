@@ -13,5 +13,6 @@ public class JL_1_while {
       x++;
     }
     System.out.println("End.");
+    sc.close();
   }
 }

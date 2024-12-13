@@ -13,11 +13,12 @@ public class JB_8_2_ExpressionPromotion {
 
   public static void main(String[] args) {
     byte a = 3;
-    byte b = a * 2;
+    int b = a * 2;
     // see the warning its becouse a is now premoted into Int.
 
     // so we use typecast here
     byte c = (byte) (a * 2);
     System.out.println(c);
+
   }
 }

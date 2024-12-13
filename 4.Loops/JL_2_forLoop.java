@@ -11,5 +11,6 @@ public class JL_2_forLoop {
       System.out.println("I dont know wahat is this !!! " + for1);
     }
     System.out.println("End.");
+    sc.close();
   }
 }

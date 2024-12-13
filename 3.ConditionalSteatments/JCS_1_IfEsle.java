@@ -21,6 +21,7 @@ public class JCS_1_IfEsle {
     // FIX:
     // here if we use only if instead of else if, in cases where age is "18" both
     // conditions might be applied ( if we use age <= 18 in second case.).
+    sc.close();
   }
 
 }

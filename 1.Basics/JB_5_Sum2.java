@@ -19,5 +19,6 @@ public class JB_5_Sum2 {
     System.out.println(sum);
     System.out.println("the product of the two numvers is ");
     System.out.println(multyply);
+    sc.close();
   }
 }

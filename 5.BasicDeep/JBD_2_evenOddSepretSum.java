@@ -24,5 +24,6 @@ public class JBD_2_evenOddSepretSum {
     } while (repet == 1);
 
     System.out.println(" The total of all Evens is: " + Even + " and The total of all ODDS is: " + Odd);
+    sc.close();
   }
 }

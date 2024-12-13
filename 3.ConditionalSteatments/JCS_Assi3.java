@@ -22,5 +22,6 @@ public class JCS_Assi3 {
     }
     System.out.println("With this the loop is ended.");
 
+    sc.close();
   }
 }

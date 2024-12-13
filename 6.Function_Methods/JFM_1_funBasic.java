@@ -46,5 +46,6 @@ public class JFM_1_funBasic {
     // in INT return type we have to use "return <name>;" stetment so that it can
     // return certain value.
     // wihtout that it will through error.
+    sc.close();
   }
 }

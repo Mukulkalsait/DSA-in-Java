@@ -20,5 +20,6 @@ public class JFM_4_factorial {
 
     int fact = factorial(a);
     System.out.println("The factorial of " + a + " is " + fact);
+    sc.close();
   }
 }

@@ -10,5 +10,6 @@ public class JL_3_sumOfN {
       sum = sum + i;
     }
     System.out.println("The total = " + sum);
+    sc.close();
   }
 }

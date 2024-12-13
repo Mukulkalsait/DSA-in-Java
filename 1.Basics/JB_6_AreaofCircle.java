@@ -12,5 +12,6 @@ public class JB_6_AreaofCircle {
     float a = sc.nextFloat();
     float radius = 3.14f * a * a;
     System.out.println(radius);
+    sc.close();
   }
 }

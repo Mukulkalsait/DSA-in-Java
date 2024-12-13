@@ -3,7 +3,7 @@
  *   ==================================================================================================================================================
  *   JB_7_TypeCasting
  *  
- *   PERF:
+ *   GREEN:
  *   A.Type Conversion or( Widening or Implicit(unclear) converison...)
  *   B.Type Casting or (Narrowing or Explicit(clear) converison...)
  *
@@ -47,7 +47,7 @@ public class JB_7_TypeCasting {
 
     // eg. 2
     Scanner sc = new Scanner(System.in);
-    int eg2_a = sc.nextFloat(); // this is giving error type mismatched type
+    float eg2_a = sc.nextFloat(); // this is giving error type mismatched type
     // cannot convert from float ot int...
 
     float eg2_b = sc.nextInt(); // whereas this will work without doubt cos flot is 8bit and we are saving int
@@ -90,5 +90,6 @@ public class JB_7_TypeCasting {
     //
     //
     //
+    sc.close();
   }
 }

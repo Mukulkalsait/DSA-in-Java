@@ -12,5 +12,6 @@ public class JL_5_doWhileBREAK {
       }
       System.out.println(num);
     } while (true);
+    sc.close();
   }
 }

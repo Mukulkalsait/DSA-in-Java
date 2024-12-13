@@ -16,6 +16,6 @@ public class JL_Pat_4_charPat {
       }
       System.out.println();
     }
-
+    sc.close();
   }
 }

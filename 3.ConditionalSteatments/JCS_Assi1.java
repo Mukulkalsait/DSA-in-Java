@@ -15,5 +15,6 @@ public class JCS_Assi1 {
     String posNigitie = (num > 0) ? "Positive" : "Nigitive";
 
     System.out.println("The Number " + num + " is " + evenOdd + " && " + posNigitie + " Number.");
+    sc.close();
   }
 }

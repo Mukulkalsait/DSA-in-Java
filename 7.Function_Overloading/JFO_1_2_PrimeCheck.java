@@ -39,5 +39,7 @@ public class JFO_1_2_PrimeCheck {
       }
       startNum++;
     } while (startNum <= endNum);
+
+    sc.close();
   }
 }

@@ -17,6 +17,6 @@ public class JL_Pat_2_stars {
       start++; // PERF: this must be in the while loop other wise it will be incrementino
                // everytime in for loop and loop will stop very soon.
     }
-    ;
+    sc.close();
   }
 }

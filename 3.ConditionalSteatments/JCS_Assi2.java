@@ -36,5 +36,6 @@ public class JCS_Assi2 {
         System.out.println("Please enter only 1 to 7 days according day.");
         break;
     }
+    sc.close();
   }
 }

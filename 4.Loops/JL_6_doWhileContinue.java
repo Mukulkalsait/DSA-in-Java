@@ -30,6 +30,6 @@ public class JL_6_doWhileContinue {
         i++;
       }
     } while (i <= a);
-
+    sc.close();
   }
 }

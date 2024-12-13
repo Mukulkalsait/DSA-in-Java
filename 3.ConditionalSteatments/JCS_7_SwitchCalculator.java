@@ -38,5 +38,6 @@ public class JCS_7_SwitchCalculator {
         System.out.println("inValid Operator is given please give only +,-,*,/,%");
         break;
     }
+    sc.close();
   }
 }

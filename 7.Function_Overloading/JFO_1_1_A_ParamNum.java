@@ -36,13 +36,16 @@ public class JFO_1_1_A_ParamNum {
         System.out.println("Intput d: (max num = 4)");
         int d = sc.nextInt();
         int res = multiply(a, b, c, d);
+        sc.close();
         return res;
       } else {
         int res = multiply(a, b, c);
+        sc.close();
         return res;
       }
     } else {
       int res = multiply(a, b);
+      sc.close();
       return res;
     }
   }

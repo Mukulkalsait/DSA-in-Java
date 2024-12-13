@@ -47,6 +47,7 @@ public class JB_4_Input {
     // ..
     // nextFolat()
     // nextDouble()
+    sc.close();
   }
 }
 

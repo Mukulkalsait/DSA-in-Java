@@ -21,6 +21,6 @@ public class JCS_4_ifelseTax {
     int grossIncome = income - tax;
     System.out.println("accouding to your income '" + income + "' your income tax is = " + tax);
     System.out.println("hence your Real income is " + grossIncome);
-
+    sc.close();
   }
 }

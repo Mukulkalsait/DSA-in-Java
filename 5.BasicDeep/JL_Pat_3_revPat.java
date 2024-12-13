@@ -15,5 +15,6 @@ public class JL_Pat_3_revPat {
       System.out.println(" ");
     }
 
+    sc.close();
   }
 }

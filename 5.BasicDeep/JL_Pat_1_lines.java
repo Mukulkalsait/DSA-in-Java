@@ -9,5 +9,6 @@ public class JL_Pat_1_lines {
     for (int i = 0; i < line; i++) {
       System.out.println("****");
     }
+    sc.close();
   }
 }

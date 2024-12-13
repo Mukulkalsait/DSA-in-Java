@@ -37,5 +37,6 @@ public class JCS_5_ifelse_largeNum {
     } else {
       System.out.println("the 3rd input " + a3 + " is greatest of all !!!");
     }
+    sc.close();
   }
 }

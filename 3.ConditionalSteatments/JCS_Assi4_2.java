@@ -18,5 +18,6 @@ public class JCS_Assi4_2 {
     float sum = (initVal + finVal) * (finVal - initVal) / 2;
 
     System.out.println(sum);
+    sc.close();
   }
 }

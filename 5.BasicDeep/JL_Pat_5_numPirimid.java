@@ -16,6 +16,6 @@ public class JL_Pat_5_numPirimid {
       }
       System.out.println();
     }
-
+    sc.close();
   }
 }
