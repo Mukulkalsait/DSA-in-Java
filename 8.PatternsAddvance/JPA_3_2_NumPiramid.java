@@ -34,6 +34,7 @@ public class JPA_3_2_NumPiramid {
   }
 
   public static void piramid2(int line) {
+
     System.out.println("By Shraddha:"); // G: Shraddha
     for (int i = 1; i <= line; i++) {
 
