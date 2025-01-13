@@ -22,4 +22,5 @@ public class JPA_3_1_NumPiramid {
     pyramid(line);
     sc.close();
   }
+
 }
