@@ -9,6 +9,13 @@ public class JB_1_javaBasic {
     System.out.println(name);
     a = 23;
     System.out.println(a);
+
+
+
+    int m = 12; 
+    int s = 12; 
+    System.out.print(m + s + "\n");
+    System.out.print(m * s);
   }
 }
 
@@ -40,3 +47,5 @@ public class JB_1_javaBasic {
  * Identifiers LItrals Var =Units
  * 
  */
+
+

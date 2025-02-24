@@ -15,6 +15,8 @@
 
 public class JOP_1_Operators {
   public static void main(String[] args) {
+      
+    }
 
     // BLUE:
     // 1 Arithmetic operators:
@@ -100,5 +102,4 @@ public class JOP_1_Operators {
 
     System.out.println(" the '!' is not but opposit maker it will make true false and voice versa !!!");
     System.out.println("!(5>3) 5>3 is true but ! will make it = " + !(5 > 3));
-  }
-}
+  }}
